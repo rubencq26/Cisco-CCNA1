@@ -6,12 +6,12 @@
 | Commando                                                         | Descripcion                                             |
 |:----------------------------------------------------------------|:---------------------------------------------------------|
 | enable                                                          | Cambia al nivel privilegiado                             |
-| configure terminal                                              | Entra al modo de configuracion global en el nivel privilegiado|
+| configure terminal *(configure t)*                                             | Entra al modo de configuracion global en el nivel privilegiado|
 | interface vlan 1                                                | Entra al modo de configuracion de Interfaz               |
 | disable                                                         | cambia al nivel de usuario                               |
 | exit                                                            | Sale del modo configuracion global y vuelve al modo privilegiado|
-| (config-if)# ipv6 address 2001:41d0:8:e115::ccc/64              | Add IPv6 address to interface.                           |
-| (config-if)# ipv6 address 2001:41d0:8:e115::/64 eui-64          | Add IPv6 address based on MAC to interface.              |
+| line console 0                                                  | modo de subconfiguracion de linea, debe entrar dede modo de configuracion, (exit) para salir     |
+| end                                                             | Sale de cualquier modo y vuelve al modo privilegiado (ctr + Z)  |
 | (config-if)# ip address dhcp                                    | Get IPv4 address via dhcp.                               |
 | (config-if)# ipv6 address autoconfig [default]                  | Get IPv6 address [and default route] via autoconfig      |
 | (config-if)# ip dhcp client client-id asccii SW2                | Set hostname transmitted as dhcp client to SW2           |
