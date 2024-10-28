@@ -22,3 +22,7 @@
 | interface ?                                                     | Te devuelve el siguiente parametro que puede ser         |
 
 ![image](https://github.com/user-attachments/assets/8ea0c385-ab9d-49a3-bfcc-9977898723c7)
+
+![image](https://github.com/user-attachments/assets/0605646e-c78c-44cf-9e2d-7a7a57ee8bc4)
+
+![image](https://github.com/user-attachments/assets/94684deb-f5c0-470f-8ca2-8a60852f268a)
